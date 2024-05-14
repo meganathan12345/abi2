@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: "Varela Round", sans-serif;
+}
+.parent{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aquamarine; */
+}
+.chaild1{
+    width: 13%;
+    height: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    text-align: start;
+    align-items: center;
+    gap: 10px;
+    
+}
+.chaild2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.chaild4{
+    display: flex;
+    gap: 20px;
+}
+.parent1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container{
+    display: flex;
+    gap: 30px;
+}
+.container1{
+    text-decoration: none;
+    color: black;
+}
+.container1:hover{
+    color: rgb(234,183,62);
+}
+.parent2{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(235,235,235);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container0{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.container3{
+    display: flex;
+    gap: 5px;
+}
+.container5{
+    text-decoration: none;
+    color: black;
+}
+.container4{
+    color: blue;
+}
+.parent3{
+    width: 100%;
+    height: 110%;
+    /* background-color: aqua; */
+    display: flex;
+    margin:70px auto;
+}
+.shop01{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    gap: 100px;
+    font-size: x-large;
+}
+.shop1{
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    gap: 20px;
+    /* background-color: blueviolet; */
+}
+.shop03{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.sss{
+    color: black;
+    text-decoration: none;
+}
+.shop22{
+    width: 75%;
+
+}
+.chaild01{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+.shop001{
+    font-size: xx-large;
+}
+.ee{
+    color: rgb(234,183,62);
+}
+.eee:hover{
+    color: rgb(234,183,62);
+}
+.shop003{
+    border: 2px solid rgb(235,235,235);
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.gret1{
+    width: 90%;
+    height: 225vh;
+    margin: 0% auto;
+    display: grid;
+    /* background-color: aqua; */
+    grid-template-columns: repeat(3,5fr);
+    row-gap: 20px;
+}
+.gret2{
+   width: 94%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    align-items: center;
+    /* margin-top: 10px; */
+    gap: 15px;
+    
+}
+.gret1 img{
+    width: 20vw;  
+    height: 40vh;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+.grert img{
+    position: absolute;
+}
+.gret1 img{
+    position: relative;
+}
+.box{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    align-items: center;
+    gap: 10px;
+}
+.box0{
+    display: flex;
+    gap: 7px;
+}
+.rd0{
+    text-decoration: none;
+    color: black;
+    /* font-size: large; */
+}
+.rd0:hover{
+    color: rgb(234,183,62);
+}
+.rd1{
+    color: rgb(234,183,62);
+}
+.rc1{
+    background-color: red;
+    border-radius: 50%;
+    color: red;
+}
+.rc2{
+    background-color: green;
+    border-radius: 50%;
+    color: green;
+}
+.rc3{
+    background-color: blue;
+    border-radius: 50%;
+    color: blue;
+}
+.rc4{
+    background-color: yellow;
+    border-radius: 50%;
+    color: yellow;
+}
+.rc11{
+    background-color: white;
+    color: white;
+}
